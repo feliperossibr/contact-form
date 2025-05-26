@@ -17,30 +17,5 @@
 body {
   font-family: "Karla";
   background-color: var(--green-200);
-  padding: 1rem;
-}
-
-
-
-span {
-  color: var(--green-600);
-}
-
-label {
-  color: var(--grey-500);
-  font-weight: 700;
-}
-
-form {
-  margin-top: 2rem;
-}
-
-fieldset {
-  border: none;
-  display: grid;
-  gap: 1.5rem;
-}
-
-fieldset + fieldset {
-  margin-top: 3rem;
+  padding: 2rem 1rem;
 }

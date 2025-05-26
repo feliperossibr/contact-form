@@ -15,5 +15,6 @@ main {
     gap: .5rem;
     margin-bottom: 1rem;
     text-decoration: none;
+    color: var(--green-600);
   }
 }
