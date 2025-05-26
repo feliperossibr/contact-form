@@ -14,12 +14,64 @@
   --grey-900: #2b4246;
 }
 
+body {
+  font-family: "Karla";
+  background-color: var(--green-200);
+  padding: 1rem;
+  font-size: .9rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1rem;
+
+  border-radius: 1rem;
+}
+
+span {
+  color: var(--green-600);
+}
+
+label {
+  color: var(--grey-500);
+  font-weight: 700;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+fieldset {
+  border: none;
+  display: grid;
+  gap: 1.5rem;
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
+}
+
+.button {
+  margin-top: 3rem;
+  display: flex;
+
+  & > .btn {
+    width: 90vw;
+    padding: 1rem;
+
+    border-radius: .5rem;
+    border: none;
+    background-color: var(--green-600);
+    color: var(--white);
+
+    font: 700 1rem "Karla";
+  }
+}
 
 #footer {
-  margin-top: 5rem;
+  margin-top: 1rem;
   font-size: .8rem;
   text-align: center;
-
 
   & > a {
     text-decoration: none;

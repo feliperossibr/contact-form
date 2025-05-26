@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="styles/global.css">
 </head>
 <body>
-  <main>
-    <div class="card">
-      <h1>Contact us</h1>
+  <div class="card">
+    <main>
+      <h1>Contact Us</h1>
 
       <form method="post" enctype="multipart/form-data">
         <fieldset class="user-info">
           <div class="input-wrapper">
-            <label for="firstname">First Name *</label>
+            <label for="firstname">First Name <span>*</span></label>
             <input
               name="firstname"
               id="firstname" 
@@ -28,7 +28,7 @@
           </div>
 
           <div class="input-wrapper">
-            <label for="lastname">Last Name *</label>
+            <label for="lastname">Last Name <span>*</span></label>
             <input
               name="lastname"
               id="lastname" 
@@ -37,7 +37,7 @@
           </div>
 
           <div class="input-wrapper">
-            <label for="email">Emil Address *</label>
+            <label for="email">Emil Address <span>*</span></label>
             <input
               name="email"
               id="email" 
@@ -46,7 +46,7 @@
           </div>
 
           <div class="input-wrapper">
-            <label>Query Type</label>
+            <label>Query Type <span>*</span></label>
 
             <div class="radio-wrapper">
               <div class="radio-inner">
@@ -62,7 +62,7 @@
           </div>
 
           <div class="textarea-wrapper">
-            <label for="message">Message *</label>
+            <label for="message">Message <span>*</span></label>
             <textarea 
               name="message" 
               id="message"
@@ -76,7 +76,7 @@
           <div class="checkbox-image"></div>
           <input type="checkbox" name="terms" id="terms">
 
-          <label for="terms">I consent to being contacted by the team *</label>
+          <label for="terms">I consent to being contacted by the team <span>*</span></label>
         </div>
 
         <div class="button">
@@ -85,8 +85,8 @@
           </button>
         </div>
       </form>
-    </div>
-  </main>
+    </main>
+  </div>
   
 
 
