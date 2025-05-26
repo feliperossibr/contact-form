@@ -1,0 +1,24 @@
+.button {
+  margin-top: 3rem;
+  display: flex;
+  
+
+  & > .btn {
+    width: 90vw;
+    padding: 1rem;
+
+    border-radius: .5rem;
+    border: none;
+    background-color: var(--green-600);
+    color: var(--white);
+
+    font: 700 1rem "Karla";
+
+    cursor: pointer;
+
+    &:hover, &:focus {
+      background-color: var(--grey-900);
+      transition: background .3s;
+    }
+  }
+}

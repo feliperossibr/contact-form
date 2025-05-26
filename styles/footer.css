@@ -1,0 +1,11 @@
+
+#footer {
+  margin-top: 1rem;
+  font-size: .8rem;
+  text-align: center;
+
+  & > a {
+    text-decoration: none;
+    color: #008e28;
+  }
+}
