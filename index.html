@@ -47,23 +47,31 @@
               id="email" 
               type="text">
           </div>
+        </fieldset>
 
+        <fieldset class="enroll-options">
           <div class="input-wrapper">
             <label>Query Type <span>*</span></label>
 
             <div class="radio-wrapper">
               <div class="radio-inner">
-                <input type="radio" name="general-enquiry" value="general-enquiry" id="general-enquiry">
+                <div class="radio-image"></div>
+                <input type="radio" name="query-type" value="general-enquiry" id="general-enquiry">
+                
                 <label for="general-enquiry">General Enquiry</label>
               </div>
 
               <div class="radio-inner">
-                <input type="radio" name="support-request" value="support-request" id="support-request">
+                <div class="radio-image"></div>
+                <input type="radio" name="query-type" value="support-request" id="support-request">
+                
                 <label for="support-request">Support Request</label>
               </div>
             </div>
           </div>
+        </fieldset>  
 
+        <fieldset class="input-wrapper">
           <div class="textarea-wrapper">
             <label for="message">Message <span>*</span></label>
             <textarea 

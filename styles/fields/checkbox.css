@@ -2,7 +2,11 @@
   margin-top: 2rem;
   display: flex;
   gap: .75rem;
-  align-items: center;
+  justify-content: center;
+
+  & > label {
+    align-items: center;
+  }
 }
 
 .checkbox-wrapper {
