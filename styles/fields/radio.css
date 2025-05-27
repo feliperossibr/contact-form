@@ -19,6 +19,10 @@ label + .radio-wrapper {
 
   position: relative;
 
+  &:has(:checked) {
+    background-color: var(--green-200);
+  }
+
   & input,
   & input:focus,
   & input:hover {
