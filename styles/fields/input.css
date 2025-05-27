@@ -16,3 +16,11 @@ label {
   display: block;
   margin-bottom: .5rem;
 }
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: .01rem solid var(--grey-500);
+  border-color: var(--green-500);
+  outline-offset: .01px;
+}

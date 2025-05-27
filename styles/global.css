@@ -18,4 +18,9 @@ body {
   font-family: "Karla";
   background-color: var(--green-200);
   padding: 2rem 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+ 
 }
